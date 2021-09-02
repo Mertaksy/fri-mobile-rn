@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <g fill="none" fill-rule="evenodd">
+        <g fill="#73B3B3" fill-rule="nonzero">
+            <g>
+                <g transform="translate(-158 -285) translate(20 244) matrix(-1 0 0 1 198 41)">
+                    <circle cx="30" cy="30" r="30" opacity=".15"/>
+                    <path d="M39.097 22.787c-.944-.683-2.246-.433-2.92.524L28.114 35l-4.762-4.83c-.809-.82-2.156-.82-2.965 0-.808.82-.808 2.187 0 3.007l6.514 6.608c.404.41.943.615 1.482.615h.225c.584-.046 1.145-.365 1.527-.889l9.5-13.762c.652-.98.405-2.301-.538-2.962z" transform="matrix(-1 0 0 1 59.78 0)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

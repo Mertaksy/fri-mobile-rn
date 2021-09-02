@@ -1,0 +1,57 @@
+{
+    "expo": {
+        "name": "Bizim Tarifler",
+        "slug": "bizim-tarifler",
+        "version": "3.0.7",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "cover",
+            "backgroundColor": "#FFFFFF"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "facebookAppId": "975239832889834",
+        "facebookScheme": "fb975239832889834",
+        "facebookDisplayName": "Bizim Tarifler",
+        "ios": {
+            "bundleIdentifier": "com.bizimtarifler.ios",
+            "usesAppleSignIn": true,
+            "buildNumber": "58",
+            "supportsTablet": true,
+            "config": {
+                "googleSignIn": {
+                    "reservedClientId": "com.googleusercontent.apps.512350746347-q05eqq92rds0s0v3i03otk7kpqu1lh1j"
+                }
+            },
+            "infoPlist": {
+                "CFBundleAllowMixedLocalizations": true,
+                "NSCameraUsageDescription": "Bizim Tarifler uses the camera to take profile photo.",
+                "NSPhotoLibraryUsageDescription": "Bizim Tarifler uses the photo library to select a profile photo.",
+                "LSApplicationQueriesSchemes": ["fbapi", "fb-messenger-share-api", "fbauth2", "fbshareextension"]
+            }
+        },
+        "android": {
+            "package": "com.bizimtarifler.androidApp",
+            "versionCode": 58,
+            "googleServicesFile": "./google-services.json",
+            "config": {
+                "googleSignIn": {
+                    "apiKey": "AIzaSyAaZTxbf-KxjwvnSaGFr1VBnLez2pCO5IU",
+                    "certificateHash": "E3:0C:62:9F:97:3B:A6:4D:B7:AF:FA:C6:40:62:0E:A4:2F:14:CF:D9"
+                }
+            },
+            "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+        },
+        "packagerOpts": {
+            "config": "metro.config.js",
+            "sourceExts": ["expo.ts", "expo.tsx", "expo.js", "expo.jsx", "ts", "tsx", "js", "jsx", "json", "wasm", "svg"]
+        }
+    }
+}

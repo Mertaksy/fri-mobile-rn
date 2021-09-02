@@ -1,0 +1,46 @@
+{
+    "project_info": {
+        "project_number": "512350746347",
+        "project_id": "bizimtarifler-dev",
+        "storage_bucket": "bizimtarifler-dev.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:512350746347:android:12682602ba6a9b5b3db0ae",
+                "android_client_info": {
+                    "package_name": "com.bizimtarifler.androidApp"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "512350746347-903srh37m7qc6dv32o27500u32u7n9cj.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyCYzNgB4Uv3qkAaJOdQbZ7JKGXHLEHC2AI"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "512350746347-903srh37m7qc6dv32o27500u32u7n9cj.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "512350746347-j9krk5eko1b287569e8gsfrdf9pese1k.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "host.exp.exponent"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}
